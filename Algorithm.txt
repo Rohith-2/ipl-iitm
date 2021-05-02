@@ -1,0 +1,20 @@
+Step 1: 
+	Load the 'all_matches.csv' 
+
+Step 2:
+	Applying Reduction to all the columns such that for any innings the record of first 6 overs is conserved,i.e, a list of batsman and bowlers are noted.
+
+Step 3:
+	In the given reduced data, padding was done with maximum possible batsman and bowlers noted in the data
+
+Step 4:
+	Label Encoding the Reduced data
+
+Step 5:
+	Splitting the data for training and testing tthe model
+
+Step 6:
+	Hypertuning the parameters of RandomForestRegressor and fitting the data for the best parameters
+
+Step 7:
+	Predicting the score.
