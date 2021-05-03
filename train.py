@@ -140,8 +140,7 @@ for i in range(4,X.shape[1]):
     X_modified.extend(X[i])
 
 p = players.tolist()
-p.extend(["Jhye Richardson","Chetan Sakariya","Fabian Allen",'Riley Meredith',"D Malan","A Singh,"_"])
-# A Singh is Arshdeep Singh
+p.extend(["Jhye Richardson","Chetan Sakariya","Fabian Allen",'Riley Meredith',"D Malan","_"])
 players = np.array(p)
 le_players = preprocessing.LabelEncoder().fit(players)
 
