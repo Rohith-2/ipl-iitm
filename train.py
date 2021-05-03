@@ -216,7 +216,7 @@ ytest_1 = [int(i) for i in ytest]
 x = r2_score(ytest_1,y_1)
 
 print("Exporting Model..")
-filename = 'IITMBSC03936/*.sav'
+filename = 'IITMBSC03936/RF_model_1.sav'
 pickle.dump(regr, open(filename, 'wb'))
 
 print("Printing Eval : ")
