@@ -70,9 +70,9 @@ def predictRuns(testInput):
     xx = np.where(x_t==le_players.classes_.shape[0]-1,-1, x_t).astype(int)
     test = xx.reshape(-1,1).T
 
-    filename   = os.path.join(os.getcwd(), 'RF_model.sav')
+    filename   = os.path.join(os.getcwd(), 'G_trial_1.sav')
     loaded_model = pickle.load(open(filename, 'rb'))
     
-    prediction = int(np.ceil(loaded_model.predict(test)[0])) - 4
+    prediction = int(np.ceil(loaded_model.predict(test)[0]))
 
     return prediction
