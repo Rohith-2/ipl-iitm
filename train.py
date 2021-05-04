@@ -76,7 +76,7 @@ def score_list(ddd1):
 
 y = np.array(score_list(data_n1))
 ylist = y.tolist()
-ylist.extend([26,32,46,45,55,39,32,55,54,45,32,59,21,45,25,50,51,65,51,56,37,42,36,43,39,50,47,49,45,67,49,36,49,58,42,57,39,63])
+ylist.extend([41,46,33,65,50,35,46,59,42,45,47,50,36,26,26,32,53,57,45,57,59,62,46,45,55,39,32,55,54,45,32,59,21,45,25,50,51,65,51,56,37,42,36,43,39,50,47,49,45,67,49,36,49,58,42,57,39,63])
 y = np.array(ylist)
 
 max_bat=0
@@ -140,7 +140,7 @@ for i in range(4,X.shape[1]):
     X_modified.extend(X[i])
 
 p = players.tolist()
-p.extend(["Jhye Richardson","Chetan Sakariya","Fabian Allen",'Riley Meredith',"D Malan","_"])
+p.extend(["Jhye Richardson","Chetan Sakariya","Fabian Allen",'Riley Meredith',"D Malan",'J Saxena','L Meriwala',"_"])
 players = np.array(p)
 le_players = preprocessing.LabelEncoder().fit(players)
 
